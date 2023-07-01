@@ -1,0 +1,234 @@
+@import url('https://fonts.google.com/specimen/Hanken+Grotesk');
+
+*
+{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Hanken Grotesk', serif;
+}
+
+body
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor
+{
+    border-radius: 20px;
+    display: flex;
+    flex-direction:row;
+    background-color:hsl(0, 0%, 100%);
+    box-shadow: 5px 10px 10px rgb(224, 233, 255);
+    height: 330px;
+    width: 480px;
+}
+
+#summarry
+{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 25px;
+    width: 240px;
+}
+
+#reaccion
+{
+    color: hsl(0, 100%, 67%);
+    font-size: 14px;
+    padding-left: 4px;
+}
+
+
+#resultadoReaccion
+{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 7px 5px;
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+#memoria
+{
+    color: hsl(39, 100%, 56%);
+    font-size: 14px;
+    padding-left: 4px;
+}
+
+#resultadoMemoria
+{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 7px 5px;
+    background-color:hsla(39, 100%, 56%, 0.1);
+}
+
+#verbal
+{
+    color: hsl(166, 100%, 37%);
+    font-size: 14px;
+    padding-left: 4px;
+}
+
+#resultadoVerbal
+{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 7px 5px;
+    background-color:hsla(166, 100%, 37%, 0.1);
+}
+
+#visual
+{
+    color: hsl(234, 85%, 45%);
+    font-size: 14px;
+    padding-left: 4px;
+}
+
+#resultadoVisual
+{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 7px 5px;
+    background-color:hsla(234, 85%, 45%, 0.1);
+}
+
+.atributo
+{
+    display: flex;
+    
+}
+
+.puntosMaximos
+{
+    color:hsl(242, 100%, 85%);
+}
+
+.puntos
+{
+    color: hsl(224, 30%, 27%);
+    font-size: 14px;
+}
+
+#tituloSymmery
+{
+    color: hsl(224, 30%, 27%);
+    font-size: 16px;
+}
+
+#tusResultados
+{
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    width: 240px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 25px;
+}
+
+#tituloTusResultados
+{
+    color:hsl(242, 100%, 85%);
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 25px;
+    padding-bottom: 23px;
+}
+
+#circulo
+{
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-radius:50%;
+    height: 127px;
+    width: 127px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#resultadoFinal
+{
+    color: white;
+    font-size: 50px;
+    height: 58px;
+}
+
+#delTotal
+{
+    color:hsl(242, 100%, 79%);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+#felicitacion
+{
+    color: white;
+    padding-top: 20px;
+    font-size: 21px;
+}
+
+#descripcion
+{
+    align-items: center;
+    color:hsl(242, 100%, 83%);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0px 10px;
+    padding-top: 10px;
+}
+
+#btnContinuar
+{
+    background:hsl(224, 30%, 27%);
+    color: white;
+    border-radius: 20px;
+    height: 38px;
+    font-size: 14;
+    font-weight:500;
+}
+
+#btnContinuar:hover
+{
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+
+@media screen and (max-width: 600px) {
+    .contenedor 
+    {
+      flex-direction: column;
+      height: auto;
+      width: auto;
+    }
+    #descripcion    
+    {
+        font-size:14px;
+        padding:  0px 0px 30px 0px;
+    }
+
+    #circulo
+    {
+        height: 110px;
+        width: 110px;
+    }
+
+    #felicitacion
+    {
+        padding: 10px 0px
+    }
+    #tituloTusResultados
+    {
+        padding: 20px 0px;
+    }
+}
