@@ -1,4 +1,4 @@
-![image](https://github.com/David23-Dev/Results-summary-component/assets/112764730/dcb0be77-6727-4dd8-9555-c199cfff758e)# Results-summary-component
+# Results-summary-component
 Estoy aprendiendo frontend y este es mi primer reto de Frontend Mentor
 
 ### Screenshot
