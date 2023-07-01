@@ -1,6 +1,16 @@
 # Results-summary-component
 Estoy aprendiendo frontend y este es mi primer reto de Frontend Mentor
 
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+
+
 ### Screenshot
 ![image](https://github.com/David23-Dev/Results-summary-component/assets/112764730/b40127f7-006d-4328-8d79-090660ba2845)
 ![image](https://github.com/David23-Dev/Results-summary-component/assets/112764730/b3042bcd-d9a4-4091-9179-10c36a40231b)
